@@ -49,6 +49,9 @@
                                 <state key="normal" title="Change Name">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeNameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RuR-X5-PVn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,6 +65,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="P4p-67-Esa" id="JQw-IA-ipy"/>
+                        <outlet property="showLabel" destination="gfU-dN-kAP" id="pXC-En-pVL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
